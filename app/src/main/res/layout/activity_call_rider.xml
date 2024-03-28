@@ -11,23 +11,23 @@
         android:id="@+id/imageView10"
         android:layout_width="175dp"
         android:layout_height="169dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215"
-        app:srcCompat="@drawable/call"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.158"
+        app:srcCompat="@drawable/call" />
 
     <RelativeLayout
         android:layout_width="341dp"
         android:layout_height="332dp"
+        android:background="@drawable/call1234"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749"
-        android:background="@drawable/call1234">
+        app:layout_constraintVertical_bias="0.776">
 
         <ImageView
             android:id="@+id/imageView12"
@@ -41,8 +41,8 @@
             android:layout_marginTop="43dp"
             android:layout_marginEnd="56dp"
             android:layout_marginBottom="180dp"
-            app:srcCompat="@drawable/call2"
-            android:importantForAccessibility="no" />
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/call2" />
 
         <ImageButton
             android:id="@+id/callBack"
