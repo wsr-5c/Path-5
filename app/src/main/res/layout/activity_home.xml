@@ -262,7 +262,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82" >
+        app:layout_constraintVertical_bias="0.797">
 
         <ImageView
             android:id="@+id/imageView6"
@@ -276,8 +276,8 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="182dp"
-            android:src="@drawable/img_1"
-            android:importantForAccessibility="no" />
+            android:importantForAccessibility="no"
+            android:src="@drawable/img_1" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -291,8 +291,8 @@
             android:layout_marginTop="178dp"
             android:layout_marginEnd="175dp"
             android:layout_marginBottom="4dp"
-            android:src="@drawable/img_2"
-            android:importantForAccessibility="no" />
+            android:importantForAccessibility="no"
+            android:src="@drawable/img_2" />
 
         <ImageButton
             android:id="@+id/imgBtnChats"
@@ -322,7 +322,7 @@
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.422" />
+        app:layout_constraintVertical_bias="0.41" />
 
     <RelativeLayout
         android:id="@+id/frame_55"
@@ -334,7 +334,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276">
+        app:layout_constraintVertical_bias="0.262">
 
         <TextView
             android:id="@+id/textView7"
@@ -363,8 +363,8 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="0dp"
-            android:src="@drawable/img"
-            android:importantForAccessibility="no" />
+            android:importantForAccessibility="no"
+            android:src="@drawable/img" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -375,7 +375,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051">
+        app:layout_constraintVertical_bias="0.047">
 
         <TextView
             android:id="@+id/textView5"
@@ -405,8 +405,8 @@
             android:layout_marginTop="11dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="11dp"
-            android:src="@drawable/search1"
-            android:importantForAccessibility="no" />
+            android:importantForAccessibility="no"
+            android:src="@drawable/search1" />
     </RelativeLayout>
 
     <ImageView
@@ -418,18 +418,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintVertical_bias="0.121" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="342dp"
         android:layout_height="64dp"
+        android:importantForAccessibility="no"
         android:src="@drawable/reklama"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331"
-        android:importantForAccessibility="no" />
+        app:layout_constraintVertical_bias="0.316" />
 </androidx.constraintlayout.widget.ConstraintLayout>

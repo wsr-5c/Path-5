@@ -22,15 +22,6 @@ public class Chats extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_chats);
 
-        Button btnBack1 = findViewById(R.id.btnBack);
-        btnBack1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent sw = new Intent(Chats.this, Home.class);
-                startActivity(sw);
-            }
-        });
-
         imgbtn1 = findViewById(R.id.imageChat2Btn);
         imgbtn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +31,7 @@ public class Chats extends AppCompatActivity {
             }
         });
 
-        imgbtn1 = findViewById(R.id.imageButton3);
+        imgbtn1 = findViewById(R.id.imageButton4);
         imgbtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
