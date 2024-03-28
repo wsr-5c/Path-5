@@ -39,5 +39,14 @@ public class Chats extends AppCompatActivity {
                 startActivity(sw);
             }
         });
+
+        imgbtn1 = findViewById(R.id.imageButton3);
+        imgbtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sw = new Intent(Chats.this, Home.class);
+                startActivity(sw);
+            }
+        });
     }
 }
